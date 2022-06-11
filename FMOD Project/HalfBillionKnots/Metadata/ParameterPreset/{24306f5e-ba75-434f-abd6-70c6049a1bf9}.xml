@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{24306f5e-ba75-434f-abd6-70c6049a1bf9}">
+		<property name="name">
+			<value>Sail Raising</value>
+		</property>
+		<relationship name="folder">
+			<destination>{380efc68-cb3f-4fda-b197-f25c683fd5b5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{92fddfab-e04d-4189-b311-c9195984ad75}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{92fddfab-e04d-4189-b311-c9195984ad75}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

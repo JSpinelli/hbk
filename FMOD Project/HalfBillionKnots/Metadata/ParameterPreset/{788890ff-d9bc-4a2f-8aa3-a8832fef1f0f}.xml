@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{788890ff-d9bc-4a2f-8aa3-a8832fef1f0f}">
+		<property name="name">
+			<value>Colossus Proximity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{380efc68-cb3f-4fda-b197-f25c683fd5b5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bc3cbdd9-3d36-40e4-9cdd-ccaefab1960f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bc3cbdd9-3d36-40e4-9cdd-ccaefab1960f}">
+		<property name="maximum">
+			<value>1000</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

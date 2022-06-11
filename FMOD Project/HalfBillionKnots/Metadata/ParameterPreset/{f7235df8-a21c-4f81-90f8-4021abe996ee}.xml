@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{f7235df8-a21c-4f81-90f8-4021abe996ee}">
+		<property name="name">
+			<value>Sail Movement</value>
+		</property>
+		<relationship name="folder">
+			<destination>{380efc68-cb3f-4fda-b197-f25c683fd5b5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cb0c49ca-be77-4518-a899-06649a42e2f2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cb0c49ca-be77-4518-a899-06649a42e2f2}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

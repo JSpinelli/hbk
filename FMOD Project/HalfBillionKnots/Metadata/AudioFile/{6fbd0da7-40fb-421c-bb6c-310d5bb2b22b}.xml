@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{6fbd0da7-40fb-421c-bb6c-310d5bb2b22b}">
+		<property name="assetPath">
+			<value>Sail Raising.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>10.600793650793651</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e412fb86-4621-42ec-99e0-e83044ebf30d}</destination>
+		</relationship>
+	</object>
+</objects>

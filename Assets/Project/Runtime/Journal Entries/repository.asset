@@ -1,0 +1,375 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5687beb1c278e4c939947e78327544, type: 3}
+  m_Name: repository
+  m_EditorClassIdentifier: 
+  colossusEntries:
+  - type: 5
+    number: 1
+    date: 3562
+    content: I never thought I would witness the end. I don't care what some are
+      saying, this is the end. Our god fell, we are doomed.
+  - type: 5
+    number: 2
+    date: 3562
+    content: What to do when god dies? Should we re-evaluate our beliefs? Maybe it
+      was never a god, gods can't die. The Giver must have been something else, maybe
+      an avatar for our true god?
+  - type: 5
+    number: 3
+    date: 3562
+    content: Who will give us a food now? We are powerless without the Giver! How
+      are we to obtain the energy to keep living?
+  - type: 5
+    number: 4
+    date: 3562
+    content: This is the fault of the non believers. If it wasn't for their heresy
+      the Giver would have had the strength to combat the black sun. We should punish
+      them!
+  - type: 5
+    number: 5
+    date: 3562
+    content: I think we should worship the black sun, it clearly is the stronger
+      entity in all the land. If we pray to it, we will get the food we need.
+  - type: 5
+    number: 6
+    date: 3562
+    content: They are gone, the body fell, crushed thousands in the process. Funny
+      to think those were the lucky ones. Now we are fighting for the last scraps
+      of energy.
+  - type: 5
+    number: 7
+    date: 3562
+    content: 'I would have liked for our god to had died a different day, maybe a
+      week later. At least I would have had my date by then, now it is just chaos.
+      And nobody wants to date in the middle of chaos. '
+  - type: 5
+    number: 8
+    date: 3562
+    content: The black sun cult has gained a lot of followers lately. And it seems
+      to be working, the ground has started to shake. I hope we get food next.
+  - type: 5
+    number: 9
+    date: 3562
+    content: I'm gone into hiding for my last days. The crazy cultists have decided
+      to start sacrificing the ones that don't belive in the black sun. I would like
+      to at least have the decency to die fro starvation.
+  - type: 5
+    number: 10
+    date: 3562
+    content: I'm sure that at some point we crossed a line we shouldn't have. Somewhere
+      between exiling non believers and sacrificing them to the black sun. I also
+      don't think any of this is working, no food has rained since the Giver died.
+  - type: 5
+    number: 11
+    date: 3562
+    content: It will never not be funny when I scrap some of the metal and the little
+      crystal things go crazy. They look pretty dumb when they eat, I don't know
+      why someone would want to research them. Nobody is here aside from me so I
+      won't do it.
+  - type: 5
+    number: 12
+    date: 3562
+    content: Fuck, the sun collapsed into a black hole. I'm sooo fucked. Welp, I
+      had a good run.
+  - type: 5
+    number: 13
+    date: 3562
+    content: Based on my power consumption I will probably be dead in a few days.
+      I don't really have any regrets. Had a nice life in this planet. Though I never
+      really did any of the research I should have.
+  - type: 5
+    number: 14
+    date: 3562
+    content: 'This is my last recording. One minute until shutdown. Designation:
+      TX345. Mission: Crystal based life identification. Progress: None, I didn''t
+      really like them so I just walked around for a few years. '
+  explorerEntries:
+  - type: 1
+    number: 1
+    date: 123355345999453
+    content: I've done it, I made it to the black hole, in a few days I'll be the
+      first Arloran to venture inside. I'll be a legend.
+  - type: 1
+    number: 2
+    date: 123355345999478
+    content: Aproach is inminent, collision expected in 20 minutes. I can feel the
+      pull in my body. I can see the event horizon. I can feel history being made.
+  - type: 1
+    number: 3
+    date: 123355345999650
+    content: I'm inside, I'm in the complete black void. My instruments detect absolutetly
+      nothing, my eyes see nothing. I can only assume there is nothing here.
+  - type: 1
+    number: 4
+    date: 123355345999650
+    content: It's been a year since my last entry, nothing happened since. Just me,
+      my ship, my mind and my void. Today I felt like I should write this down for
+      some reason.
+  - type: 1
+    number: 5
+    date: 123355345999650
+    content: My instruments have detected something, a blip in the computer, a sound
+      I had forgotten. Finally I have something to explore.
+  - type: 1
+    number: 6
+    date: 123355345999650
+    content: I hit it! I'm stuck. I lost. I fear this is my end. I realeased my logs
+      to the void. To whoever finds them. What the fuck where you thinking? Get out
+      of my property!
+  - type: 1
+    number: 7
+    date: 123355345999650
+    content: Exploring the nothingness is easy. Once you see the first few kilometers
+      you've seen them all. The only hard part is pushing aside any ideas of something
+      hiding in the dark. Trust me, I'm the only thing here and I'm not hiding.
+  - type: 1
+    number: 8
+    date: 123355345999650
+    content: With time I've become really good at thinking. It only makes sense,
+      it's almost exclusively the only thing I do. I've won and lost countless arguments
+      and reformulated thousands of axioms. I should have written some of them down.
+  - type: 1
+    number: 9
+    date: 123355345999650
+    content: I wonder what people are doing back home. Are they still fighting? Or
+      were they sufficently amazed by my prowess that peace now reigns? Have they
+      given up borders? Have they made me a statue?
+  - type: 1
+    number: 10
+    date: 123355345999650
+    content: I've been thinking a lot about the statue of me back home. It defintly
+      is very big. Afterall the bigger the acomplishment the bigger the statue. I
+      hope it includes my ship. I also hope is made in a way that children can play
+      in it. And that also serves as housing for the homeless. Also food. And made
+      out of gold.
+  - type: 1
+    number: 11
+    date: 123355345999650
+    content: There is void, empty void, void with space dust, black void, sligtly
+      grey void, static void, swirling void, void with something that turns out to
+      be a smudge in the lens, void of despair, void of resignation, and, sometimes,
+      very rarely, happy void (still undiscovered)
+  - type: 1
+    number: 12
+    date: 123355345999650
+    content: I have realized that my energy supply, and therefore, my food supply
+      will last for another thousand years. I fucking hate engineers, they couldn't
+      even give me the option to starve to death. If only I was a coward, I could
+      take the easy way out.
+  - type: 1
+    number: 13
+    date: 123355345999650
+    content: I heard the gods talking the other day. They were discussing my fate.
+      A few wanted to smite me for my defiance, others wanted me to ascend because
+      of my bravery, a few wanted to be with me because of my good looks. The debate
+      was heated until the fridge stopped defrosting and I couldn't hear them anymore.
+  - type: 1
+    number: 14
+    date: 123355345999650
+    content: I just want to come back, set my feet on solid ground once more. I want
+      to be able to stretch my arms. I want to be free again.
+  - type: 1
+    number: 15
+    date: 123355345999650
+    content: Don't know waht happened to me on my previous log. I love being in my
+      space can, surrounded by empty void. I'm the best explorer any civilization
+      has ever seen, and there's nothing to explore back home.
+  - type: 1
+    number: 16
+    date: 123355345999650
+    content: Now that a few years have come by I can confidently say this place is
+      empty, and, therefore, I'm the first to discover it. I will name it "Hanert's
+      Hole", because is mine, is a hole, and I like illiteration.
+  - type: 1
+    number: 17
+    date: 123355345999650
+    content: Chapter 1, the day I was born, nobody else was. I was the first Arloran
+      to be born at 76:34 on a Verten. A true visionary, on that day I knew I was
+      destined for great things.
+  whaleEntries:
+  - type: 3
+    number: 1
+    date: 74434
+    content: This place is nice, quiet, empty. Not too empty thought, every now and
+      then I can see stuff. Stuff is nice. I usually just stare at it for a while,
+      and then I move on.
+  - type: 3
+    number: 2
+    date: 74437
+    content: There isn't much to do in this place. I like that. I hate having too
+      many options. I appreciate that my activity choices are limited. Float, watch,
+      rest, eat. Easy.
+  - type: 3
+    number: 3
+    date: 74452
+    content: Today I ate someone, it was nice. A new thing to do, it was not a log
+      activity thought. But it was new. The little dude screamed something as they
+      plunged into my mouth. It was interesting. I hope they are well. I don't know
+      how it looks inside me.
+  - type: 3
+    number: 4
+    date: 74480
+    content: I found a cloud today. It was pretty and made out of static. I think
+      it could talk. It was nice.
+  - type: 3
+    number: 5
+    date: 74532
+    content: I saw a cat the other day. At least that's what it said it was called.
+      First time meeting one. It seemed nice. I wanted to pet it but it went away.
+  - type: 3
+    number: 6
+    date: 74589
+    content: Floating, vibing, floating, watching, sleeping, floating, waiting. What
+      a life.
+  - type: 3
+    number: 7
+    date: 74601
+    content: Sometimes my stubborn mind decides to think, why little brain? It only
+      brings us pain. Why do we need to think that we are alone? We don't care for
+      company, I thought we had agreed on that part
+  - type: 3
+    number: 8
+    date: 74603
+    content: I'm alone, brain thinking again. I'm also hungry, stomach bothering
+      again. This is all brain's fault, they shuold keep stomach in check, but they
+      are too busy thinking about loneliness.
+  - type: 3
+    number: 9
+    date: 74650
+    content: Ate an island today, didn't taste like much, it was fun though. I didin't
+      finish it, it was too much. Probably will come back later, don't want anyone
+      to think I'm rude.
+  - type: 3
+    number: 10
+    date: 74678
+    content: Floating, not thinking, relazing, not hungry, sleeping, not alone, floating
+      again, still not thinking, waiting, not thirsty
+  - type: 3
+    number: 11
+    date: 652
+    content: How the fuck? What is this? Why are my thoughts appearing in the air?
+      Where am I? This place feels damp, squishy and weirdly hot. Is this fucking
+      flesh!? What the fuck?!
+  - type: 3
+    number: 12
+    date: 74695
+    content: Looks like someone appeared in my mouth again. It's sad that I can never
+      talk to them. They always dissapear before I spit them out. They aways leave
+      behind clouds.
+  - type: 3
+    number: 13
+    date: 74758
+    content: Sometimes I wish I could be a flower pot, I don't know why. I think
+      brain just gets so bored that it doesn't want to exist anymore. I still think
+      a flower pot would be calm and probably less demanding.
+  - type: 3
+    number: 14
+    date: 75000
+    content: Should I leave someday? Or should I just float around until I die? Or
+      whatever happens at the end. I like the floating, I thinkI'll stay. Yeah, fuck
+      you brain.
+  kingdomEntries: []
+  archivistEntries: []
+  poetEntries:
+  - type: 4
+    number: 1
+    date: 3562
+    content: When glancing to the harsh unyielding sky<br>My mind, perchance, begins
+      to wander so <br>Into a time when time would pass me by <br>My head, in England,
+      constantly held low
+  - type: 4
+    number: 2
+    date: 3562
+    content: From birth my life continues void of luck <br>Yet no encounter fills
+      me with such ire <br>Like when I think upon that dreaded pluck <br>That ripped
+      me from The Globe engulfed in fire
+  - type: 4
+    number: 3
+    date: 3562
+    content: "Surrounded by the licks of deadly flames <br>The brevity of life flashed
+      fore mine eyes <br>If ere another human reads my claims <br>I know, with certainty
+      they\u2019ll claim them lies"
+  - type: 4
+    number: 4
+    date: 3562
+    content: Escaping through the only open door <br>I fell through time and washed
+      upon this shore
+  - type: 4
+    number: 5
+    date: 3562
+    content: My friend I found thee on a lifeless beach <br>The world around me falls
+      into the void <br>An endless sky of stars beyond my reach <br>Converging on
+      the shore, all else destroyed
+  - type: 4
+    number: 6
+    date: 3562
+    content: I fear my life will soon come to an end <br>My legacy, alone will obfuscate
+      <br>Historians who stumble on my pen <br>And read the epic tale of my cruel
+      fate
+  - type: 4
+    number: 7
+    date: 3562
+    content: This morn I saw the lights begin to shift <br>It seems to me that this
+      phenomenon <br>Have may yet struck on more than just my rift <br>What wonders
+      lie in endlessness on and on
+  - type: 4
+    number: 8
+    date: 3562
+    content: With this comes visitors now, new and old <br>Who linger in stagnation
+      to behold
+  - type: 4
+    number: 9
+    date: 3562
+    content: The mysteries within just never cease <br>Today, a gift of life I stumbled
+      on <br>Among the chaos, I discovered peace <br>The island, void of life, held
+      hope beyond
+  - type: 4
+    number: 10
+    date: 3562
+    content: One day when I was walking on the edge <br>A vision struck; a new anomaly
+      <br>Some cosmic burst destroyed a yonder ledge <br>The sight alone did then
+      cause me to flee
+  - type: 4
+    number: 11
+    date: 3562
+    content: I ran into the nearby waterfall <br>And yet I was bewildered and amazed
+      <br>The echo of mine voice answered the call <br>As if, within the mountain
+      I had phased
+  - type: 4
+    number: 12
+    date: 3562
+    content: The beauty of the land beneath the wave<br>Which opened to the mouth
+      of a new cave
+  - type: 4
+    number: 13
+    date: 3562
+    content: 'I realize now the cruelty of this fate <br>In which, alone, no one
+      will know my name<br>Or know this tale of life, I am too late<br>My stories,
+      told to no one, hold no fame '
+  - type: 4
+    number: 14
+    date: 3562
+    content: I will not leave this island nor return<br>Unto the time in which my
+      soul resides<br>The meaning of my life, I now do learn<br>Was just to fade
+      away within this tide
+  - type: 4
+    number: 15
+    date: 3562
+    content: When glancing on the harsh unyielding sky<br>My mind, perchance, begins
+      to wander so<br>The breath of life seems to escape mine eye<br>As hopelessness
+      and fright begin to grow
+  - type: 4
+    number: 16
+    date: 3562
+    content: I feel myself into the darkness slip<br>My life, succumbing to this
+      dreadful blip

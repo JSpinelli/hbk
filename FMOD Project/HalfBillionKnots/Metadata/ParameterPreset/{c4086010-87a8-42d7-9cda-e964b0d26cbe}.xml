@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{c4086010-87a8-42d7-9cda-e964b0d26cbe}">
+		<property name="name">
+			<value>Main Track Weight</value>
+		</property>
+		<relationship name="folder">
+			<destination>{380efc68-cb3f-4fda-b197-f25c683fd5b5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{57a56bc5-4c57-4b4c-a33d-5ddbc9d2c8af}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{57a56bc5-4c57-4b4c-a33d-5ddbc9d2c8af}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

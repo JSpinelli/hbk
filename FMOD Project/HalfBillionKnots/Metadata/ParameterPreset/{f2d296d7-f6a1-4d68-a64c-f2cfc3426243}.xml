@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{f2d296d7-f6a1-4d68-a64c-f2cfc3426243}">
+		<property name="name">
+			<value>Black Hole Proximity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{380efc68-cb3f-4fda-b197-f25c683fd5b5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{76faaebc-1f86-4b19-a614-d6a4484c2352}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{76faaebc-1f86-4b19-a614-d6a4484c2352}">
+		<property name="minimum">
+			<value>-1000</value>
+		</property>
+		<property name="maximum">
+			<value>1000</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Poet Ocean
+  m_Shader: {fileID: 4800000, guid: c2da9cac83b84df42813c5a9e480c2a7, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistortionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeFoam:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals3D:
+        m_Texture: {fileID: 11700000, guid: 5e81874e35b198941b393682a5d00b03, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SeaFoam:
+        m_Texture: {fileID: 2800000, guid: 265d63fc2f1e9438db785b8fd5270433, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _AlphaCutoff: 0.5
+    - _AmplitudeX: 0.10999176
+    - _AmplitudeZ: 0.10998266
+    - _CompFront: 3
+    - _Depth_Old: -7.11
+    - _Distort: 0.34
+    - _DistortionScale: 10
+    - _EdgeFoamTile: -0.16
+    - _EdgePower: 0.17
+    - _FoamMask: -4.56
+    - _FoamTextureWarpingScale: 0.01
+    - _Hardness: 10
+    - _HeightBlendOffset: -0.03
+    - _LengthX: 20
+    - _LengthZ: 15
+    - _MaxTessallation: 25
+    - _MinHeightforfoam: 4.7
+    - _MinTessalation: 15
+    - _NormalPower: 0.52
+    - _OffsetX: 92.62765
+    - _OffsetZ: 578.9231
+    - _PassFront: 0
+    - _Radius: 261.92
+    - _SeaFoamEmission: 0
+    - _SeaFoamEmission1: 0
+    - _SeaFoamTile: 0.2
+    - _ShoreDepth: 0.05
+    - _Smoothness: 0.5
+    - _SphereMaskInside: 1
+    - _Tesselation: 50
+    - _TextureOffset: 0
+    - _Tiling: 0
+    - _VoronoiScale: 0.5
+    - _WaterTile: 0.1
+    - _WindMagnitude: 10
+    - _WindPatternScale: 0
+    - _WindTimeScale: 0
+    m_Colors:
+    - _CircleMaskCenter: {r: -307, g: 0, b: -23, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamColor: {r: 1.0592737, g: 0.3105724, b: 0, a: 1}
+    - _SailboatPosition: {r: 541.02057, g: -0.71079886, b: -193.36047, a: 0}
+    - _SphereCenterObject: {r: 0, g: 0, b: 0, a: 0.84}
+    - _WaterColor: {r: 0.18431371, g: 0.7647059, b: 0.7309873, a: 0.8352941}
+    - _Wind: {r: 1.28, g: 0.44, b: 0, a: 0}
+    - _WindDirection: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &3794477122318825138
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4

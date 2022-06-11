@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387b35f7e2ab21d4abbcaf96c87428cf, type: 3}
+  m_Name: Config_Tweaks
+  m_EditorClassIdentifier: 
+  turningFactor: 180
+  xCameraSensitivityKeyboard: 10
+  xCameraSensitivityGamepad: 100
+  yCameraSensitivityKeyboard: 10
+  yCameraSensitivityGamepad: 100
+  dollySensitivityKeyboardOverboard: 0.0015
+  dollySensitivityGamepadOverboard: 0.0015
+  dollySensitivityKeyboardSails: 0.01
+  dollySensitivityGamepadSails: 0.003
+  cameraDeathZoneKeyboard: 0.5
+  cameraDeathZoneGamepad: 0.01
+  sailRaiseSensitivityKeyboard: 0.05
+  sailRaiseSensitivityGamepad: 0.02
+  tillerSensitivityKeyboard: 1
+  tillerSensitivityGamepad: 1.8
+  runningRange: {x: 60, y: 90}
+  broadReachRange: {x: 45, y: 70}
+  beamReachRange: {x: 20, y: 55}
+  closeReachRange: {x: 5, y: 30}
+  closeHauledRange: {x: 0, y: 15}
+  main_runningRange: {x: 38, y: 65}
+  main_broadReachRange: {x: 25, y: 50}
+  main_beamReachRange: {x: 18, y: 40}
+  main_closeReachRange: {x: 5, y: 30}
+  main_closeHauledRange: {x: 0, y: 20}

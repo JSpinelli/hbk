@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7c159066-e29b-409f-b47f-ae6199c3044b}">
+		<property name="assetPath">
+			<value>Titan Groove Demo.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>29.333333333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e412fb86-4621-42ec-99e0-e83044ebf30d}</destination>
+		</relationship>
+	</object>
+</objects>

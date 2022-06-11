@@ -1,0 +1,14 @@
+{67cab97a-0839-45c9-bee8-9d882363a24f} bank:/Master
+{ffd799ae-7942-098b-38a1-1776d290a4d7} bank:/Master.strings
+{b14e62c6-1d84-4de5-b342-642ac9ba2c05} bus:/
+{a6485e75-b950-41aa-95a6-9235d64c0404} bus:/Reverb
+{28c34d99-e611-4c7e-99c4-68f517525601} event:/Camera Panning
+{0968334b-3825-46c2-bcf7-646266569f60} event:/Camera Switch
+{4b5ec787-83e0-4cd0-ad8c-fce4b6cfe062} event:/Console Typing
+{9afe3a99-98fc-4ec6-af17-5848c2bfd869} event:/Flap
+{169e1a91-4d17-4ed5-a209-1a494a5690c0} event:/Full Efficency
+{a8d39d03-7ae1-44a8-9f83-b3ee3cb7f8a7} event:/Moving Camera
+{e5e03b77-60b0-4898-9b99-7eeed3ac7bc8} event:/Moving Sail
+{958d71c7-da53-4559-abf4-ba827af2b604} event:/Scan Complete
+{ca1deb0b-a559-4d2f-9b85-3fc11458fbd3} event:/Steering
+{76389846-4475-46e1-86d9-a74c27c4c280} event:/Wind
