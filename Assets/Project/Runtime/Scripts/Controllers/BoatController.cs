@@ -1,4 +1,5 @@
-﻿using FMODUnity;
+﻿using System;
+using FMODUnity;
 using UnityAtoms.BaseAtoms;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -17,6 +18,11 @@ public class BoatController : MonoBehaviour
     [HeaderAttribute("Speed")] 
     public float speedFactor = 50f;
     public float accelerationMagnitude;
+
+    [HeaderAttribute("Slow Motion")] 
+    public float slowMotionDuration = 10;
+    public float slowMotionScale = 0.1f;
+    public float slowMotionCooldown = 5f;
     
     [HeaderAttribute("Inertia Tensor")] 
     public Vector3 inertiaTensor;
@@ -43,12 +49,17 @@ public class BoatController : MonoBehaviour
 
     // Input Tracking
     private float _acceleration;
+    private bool _slowMotionTriggered;
+    private bool _slowMotionActive = false;
+    
 
     // State
     private float _currentSpeed;
     public bool anchorDropped = true;
     private bool _anchorEnabled = true;
     private bool _speedBoatMode;
+    private float _slowmoCooldown = 0;
+    private float _slowmoDuration = 0;
 
     private void Awake()
     {
@@ -61,6 +72,7 @@ public class BoatController : MonoBehaviour
     {
         InputManager.Instance.Register(OnAccelerate, "Accelerate");
         InputManager.Instance.Register(OnAnchor, "Anchor");
+        InputManager.Instance.Register(OnSlowmo, "Slowmo", true, true);
         
         EventManager.Instance.Register<StartTutorial>((e) =>
         {
@@ -170,8 +182,55 @@ public class BoatController : MonoBehaviour
 
         //Boat Turning
         _rigidbody.AddForceAtPosition(
-            transform.right * (currentTillerPos * Mathf.Clamp(_velMagnitude, 8, 20)),
+            transform.right * (currentTillerPos * Mathf.Clamp(_velMagnitude, 8, 40)),
             tillerPos.position);
+        
+        SlowMotion();
+    }
+
+    private void SlowMotion()
+    {
+        if (_slowMotionTriggered)
+        {
+            if (_slowmoDuration < (slowMotionDuration*slowMotionScale))
+            {
+                _slowmoDuration += Time.fixedDeltaTime;
+                if (!_slowMotionActive)
+                {
+                    _slowMotionActive = true;
+                    Time.timeScale = slowMotionScale;
+                    _slowmoCooldown = 0;
+                    EventManager.Instance.Fire(new SlowMotion(true));
+                }
+            }
+            else
+            {
+                if (_slowMotionActive)
+                {
+                    _slowMotionActive = false;
+                    Time.timeScale = 1;
+                    EventManager.Instance.Fire(new SlowMotion(false));
+                }
+            }
+        }
+        else
+        {
+            if (_slowMotionActive)
+            {
+                _slowMotionActive = false;
+                Time.timeScale = 1;
+                EventManager.Instance.Fire(new SlowMotion(false));
+            }
+            if (_slowmoCooldown < slowMotionCooldown)
+            {
+                _slowmoCooldown += Time.fixedDeltaTime;
+            }
+            else
+            {
+                _slowmoDuration = 0;
+            }
+
+        }
     }
 
     // Input Handlers
@@ -195,5 +254,10 @@ public class BoatController : MonoBehaviour
     private void OnAccelerate(InputAction.CallbackContext value)
     {
         _acceleration = -value.ReadValue<float>();
+    }
+    
+    private void OnSlowmo(InputAction.CallbackContext value)
+    {
+        _slowMotionTriggered = value.ReadValue<float>() != 0;
     }
 }

@@ -88,7 +88,7 @@ public class EffectsHandler : MonoBehaviour
     {
         if (_cameraSwitchTimer < cameraSwitchEffectDuration)
         {
-            _cameraSwitchTimer += Time.deltaTime;
+            _cameraSwitchTimer += Time.fixedDeltaTime;
             retroMat.SetFloat(StaticStrength, staticCurve.Evaluate(_cameraSwitchTimer/cameraSwitchEffectDuration));
             retroMat.SetFloat(DistortionStrength, staticCurve.Evaluate(_cameraSwitchTimer/cameraSwitchEffectDuration));
         }

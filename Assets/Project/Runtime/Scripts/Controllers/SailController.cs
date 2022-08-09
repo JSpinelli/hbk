@@ -74,6 +74,7 @@ public class SailController : MonoBehaviour
     private float _minRaiseMatValue = 14;
     private float _maxRope;
     private float _minRope;
+    private float _time;
     private static readonly int Property = Shader.PropertyToID("_Plane");
     private static readonly int MainColor = Shader.PropertyToID("_MainColor");
     private static readonly int Emission = Shader.PropertyToID("_Emission");
@@ -130,12 +131,13 @@ public class SailController : MonoBehaviour
         _ropeDiff = _rope - _angle;
         _yRot = transform.localRotation.y;
         _sailAngle = _yRot;
-
+        _time = Time.fixedDeltaTime;
+        
         // WENT TO FAR
         if (_ropeDiff < -tolerance)
         {
             transform.RotateAround(mast.transform.position, transform.up,
-                ((Mathf.Sign(-_yRot) * adjustmentFactor)) * Time.deltaTime);
+                ((Mathf.Sign(-_yRot) * adjustmentFactor)) * _time);
             return;
         }
 
@@ -144,7 +146,7 @@ public class SailController : MonoBehaviour
         {
             transform.RotateAround(mast.transform.position, transform.up,
                 (Mathf.Sign(-_windDirectionShip) * windReturnFactor) *
-                Time.deltaTime);
+                _time);
             return;
         }
 
@@ -153,7 +155,7 @@ public class SailController : MonoBehaviour
         {
             transform.RotateAround(mast.transform.position, transform.up,
                 ((Mathf.Sign(-_windDirectionShip) * windAttachmentFactor)) *
-                Time.deltaTime);
+                _time);
         }
 
         UpdateContribution();
@@ -229,7 +231,7 @@ public class SailController : MonoBehaviour
             case "In Irons":
             {
                 sailContribution.Value =
-                    Mathf.Lerp(sailContribution.Value, 0, Time.deltaTime * contributionLosingFactor);
+                    Mathf.Lerp(sailContribution.Value, 0, _time * contributionLosingFactor);
                 break;
             }
             case "Close Hauled":
@@ -272,11 +274,11 @@ public class SailController : MonoBehaviour
             _curvePoint = (_rope - sailSpread.x) /
                           (sailSpread.y - sailSpread.x);
             sailContribution.Value =
-                Mathf.Lerp(sailContribution.Value, sailCurve.Evaluate(_curvePoint), Time.deltaTime);
+                Mathf.Lerp(sailContribution.Value, sailCurve.Evaluate(_curvePoint), _time);
         }
         else
         {
-            sailContribution.Value = Mathf.Lerp(sailContribution.Value, .3f, Time.deltaTime * contributionLosingFactor);
+            sailContribution.Value = Mathf.Lerp(sailContribution.Value, .3f, _time * contributionLosingFactor);
         }
 
         float mappedValue = sailContribution.Value.Remap(0.3f, 1, 0, 1);

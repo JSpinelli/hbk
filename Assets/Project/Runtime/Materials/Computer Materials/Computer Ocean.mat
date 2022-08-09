@@ -108,8 +108,8 @@ Material:
     - _Alpha: 1
     - _AlphaClip: 0
     - _AlphaCutoff: 0.5
-    - _AmplitudeX: 0.10999176
-    - _AmplitudeZ: 0.10998266
+    - _AmplitudeX: 0.25139976
+    - _AmplitudeZ: 0.10998876
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -138,8 +138,8 @@ Material:
     - _MinHeightforfoam: 0
     - _MinTessalation: 15.21
     - _OcclusionStrength: 1
-    - _OffsetX: 92.62765
-    - _OffsetZ: 578.9231
+    - _OffsetX: 10.096662
+    - _OffsetZ: 63.104156
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _Radius: 261
@@ -166,7 +166,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 1.3254902, g: 0.32156864, b: 0.32156864, a: 0.6509804}
-    - _SailboatPosition: {r: 541.02057, g: -0.71079886, b: -193.36047, a: 0}
+    - _SailboatPosition: {r: 0.07632756, g: -0.9545723, b: -8.480137, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SphereCenterObject: {r: 0, g: 0, b: 0, a: 0}
     - _WaterColor: {r: 0.21684209, g: 0.4056604, b: 0.2009167, a: 0.2784314}

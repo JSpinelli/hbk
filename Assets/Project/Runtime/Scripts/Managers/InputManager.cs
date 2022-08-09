@@ -32,4 +32,9 @@ public class InputManager : MonoBehaviour
         if (started)
             input.actions[actionName].started += action;
     }
+
+    // public void Fire(string ar)
+    // {
+    //     input.ActivateInput(ar);
+    // }
 }

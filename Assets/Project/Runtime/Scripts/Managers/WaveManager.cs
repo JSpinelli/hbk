@@ -80,7 +80,7 @@ public class WaveManager : MonoBehaviour
 
     private void Update()
     {
-        _distortionTexture2D = distortionTexture.ToTexture2D();
+        //_distortionTexture2D = distortionTexture.ToTexture2D();
         _sailboatPos = sailboat.position;
         offsetX += Time.deltaTime * speedX;
         offsetZ += Time.deltaTime * speedZ;
@@ -119,9 +119,10 @@ public class WaveManager : MonoBehaviour
 
     public float GetWaveHeight(float x, float z)
     {
-        var pixelVal = _distortionTexture2D.GetPixel(
-            (int) (_sailboatPos.x - x + _textureOffsetX),
-            (int) (_sailboatPos.z - z + _textureOffsetY));
+        // var pixelVal = _distortionTexture2D.GetPixel(
+        //     (int) (_sailboatPos.x - x + _textureOffsetX),
+        //     (int) (_sailboatPos.z - z + _textureOffsetY));
+        var pixelVal = Color.black;
         
         float textureOffset = (pixelVal.r - pixelVal.g) * distortionFactor;
         var zVal = amplitudeZ * Mathf.Sin((z / lengthZ) + offsetZ);

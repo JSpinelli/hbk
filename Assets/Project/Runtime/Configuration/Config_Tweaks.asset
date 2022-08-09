@@ -26,7 +26,7 @@ MonoBehaviour:
   sailRaiseSensitivityKeyboard: 0.05
   sailRaiseSensitivityGamepad: 0.02
   tillerSensitivityKeyboard: 1
-  tillerSensitivityGamepad: 1.8
+  tillerSensitivityGamepad: 1.1
   runningRange: {x: 60, y: 90}
   broadReachRange: {x: 45, y: 70}
   beamReachRange: {x: 20, y: 55}

@@ -99,6 +99,17 @@ public class VisorEnabled : HBKEvent
 {
 }
 
+public class SlowMotion : HBKEvent
+{
+    public readonly bool Active;
+
+    public SlowMotion(bool active)
+    {
+        Active = active;
+    }
+}
+
+
 public class BlackHoleEffectActive : HBKEvent
 {
     public readonly bool Active;
